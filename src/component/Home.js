@@ -8,7 +8,6 @@ const Home = () => {
                 <div className="main-container">
                     <div className="greeting-wrapper">
                     <h1>Hi, I'm Kabeer Dawani</h1>
-                        {/* <p>I am researcher</p> */}
                     </div>
                     <div className="intro-wrapper">
                         <div className="nav-wrapper">
@@ -52,7 +51,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className="s2">
+            {/* <section className="s2">
                 <div className="main-container">
                     About
                 </div>
@@ -68,7 +67,7 @@ const Home = () => {
                 <div className="main-container">
                     Contact
                 </div>
-            </section>
+            </section> */}
             </>
     )
 }
