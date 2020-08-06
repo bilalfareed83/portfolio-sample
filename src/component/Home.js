@@ -22,13 +22,33 @@ const Home = () => {
                             </ul>
                         </div>
                         <div className="left-column">
-                            Left Column
+                            <img id="profile-pic" src="images/kabeer.jpg" alt="kabeer" />
+                            <h5 style={{ textAlign: "center", lineHeight: 0 }}>Personalizse Theme</h5>
+                            
+                            <div id="theme-opt-wrapper">
+                                <div id="light-mode" className="theme-dot"></div>
+                                <div id="blue-mode" className="theme-dot"></div>
+                                <div id="green-mode" className="theme-dot"></div>
+                                <div id="purple-mode" className="theme-dot"></div>
+                            </div>
+
+                            <p id="setting-note">Theme setting will be saved for <br/> your next visit</p>
+
                         </div>
                         <div className="right-column">
-                            Right Column
-                        </div>
+                            <div id="preview-shadow">
+                            <div id="preview">
+                                <div id="tl" className="corner"></div>
+                                <div id="tr" className="corner"></div>
+                                
+                                <h1>What i do.</h1>
+                                <p>Political economy of development, governance and service delivery, industrial policy and structural transformation, electoral politics, state effectiveness.</p>
+                                <div id="bl" className="corner"></div>
+                                <div id="br" className="corner"></div>
+                            </div>
+                            </div>
+                            </div>
                     </div>
-                    {/* <a href="#"> Link</a> */}
                 </div>
             </section>
 
