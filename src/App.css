@@ -81,6 +81,16 @@ ul{
 box-shadow: -3px -3px 2px -2px rgba(0,0,0,0.46);
 }
 
+#navigation{
+  padding: 10px;
+}
+
+#navigation li{
+  display: inline;
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
 .nav-wrapper{
   grid-area: nav-wrapper;
   border-bottom: 1px solid var(--borderColor);

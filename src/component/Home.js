@@ -18,7 +18,7 @@ const Home = () => {
                                 <div id="dot3" className="browser-dot"></div>
                             </div>
                             <ul id="navigation">
-                            Nav
+                                <li><a href="#">Contact</a></li>
                             </ul>
                         </div>
                         <div className="left-column">
