@@ -1,0 +1,127 @@
+:root{
+  --mainColor:#eaeaea;
+  --secondaryColor:#fff;
+
+  --borderColor: #c1c1c1;
+
+
+  --mainText: black;
+  --secondaryText: #4b5156
+}
+
+html, body{
+  margin: 0;
+  padding: 0;
+}
+
+
+h1, h2, h3, h4, h5, h6, strong{
+  color: var(--mainText);
+  font-family: 'Russo One', sans-serif;
+  font-weight: 500;
+}
+
+p, li,  label, span, textarea, input{
+  color: var(--secondaryText);
+  font-family: 'Roboto Mono', monospace;
+}
+
+a{
+  text-decoration: none;
+  color: #17a2b8;
+}
+
+ul{
+  list-style: none;
+}
+
+.s1{
+  display: flex;
+  justify-content: start;
+  background-color: var(--mainColor);
+  border-bottom: 1px solid var(--borderColor);
+  overflow: auto;
+}
+
+.s2{
+  display: flex;
+  justify-content: start;
+  background-color: var(--secondaryColor);
+  border-bottom: 1px solid var(--borderColor);
+  overflow: auto;
+}
+
+.main-container{
+  width: 1200px;
+  margin: auto 100px;
+}
+
+.greeting-wrapper{
+  display: grid;
+  /* justify-content: center; */
+  text-align: center;
+  align-content: center;
+  min-height: 10em;
+}
+
+.intro-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3em 30em;
+  grid-template-areas: 
+    "nav-wrapper nav-wrapper"
+    "left-column right-column"
+  ;
+  background-color: var(--secondaryColor);
+  border: var(--borderColor);
+  border-radius: 5px 5px 0 0;
+
+  -webkit-box-shadow: -3px -3px 2px -2px rgba(0,0,0,0.46);
+-moz-box-shadow: -3px -3px 2px -2px rgba(0,0,0,0.46);
+box-shadow: -3px -3px 2px -2px rgba(0,0,0,0.46);
+}
+
+.nav-wrapper{
+  grid-area: nav-wrapper;
+  border-bottom: 1px solid var(--borderColor);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--mainColor);
+  border-radius: 5px 5px 0 0;
+}
+
+.dots-wrapper{
+  display: flex;
+  padding-left: 10px;
+}
+
+.browser-dot{
+  height: 15px;
+  width: 15px;
+  background-color: black;
+  border-radius: 50%;
+  margin: 5px;
+}
+
+#dot1{
+  background-color: #fc6058;
+}
+
+#dot2{
+  background-color: #fec02f
+}
+
+#dot3{
+  background-color: #2aca3e;
+}
+
+
+.left-column{
+  grid-area: left-column;
+
+}
+
+.right-column{
+  grid-area: right-column;
+}
