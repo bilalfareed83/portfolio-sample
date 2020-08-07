@@ -43,6 +43,8 @@ const About = () => {
                             <a href="https://twitter.com/dkab91?lang=en" target="blank">Twitter: @dkab91</a>
                             <br/>
                             <a href="https://www.facebook.com/kabeer.dawani" target="blank">Facebook: kabeer.dawani</a>
+                            <br/>
+                            <a href="mailto:kabeer.dawani@gmail.com" target="_blank">@Send email</a>
                         </div>
                 </div>
                 </div>
