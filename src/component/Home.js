@@ -1,7 +1,9 @@
 import React from 'react'
 
 
-const Home = () => {
+const Home = ({themeColor, currentThemeColor}) => {
+
+    
     return (
         <>
             <section className="s1">
@@ -12,7 +14,7 @@ const Home = () => {
                     <div className="intro-wrapper">
                         <div className="nav-wrapper">
                             <div className="dots-wrapper">
-                                <div id="dot1" className="browser-dot"></div>
+                                <div id="dot1" className="browser-dot" ></div>
                                 <div id="dot2" className="browser-dot"></div>
                                 <div id="dot3" className="browser-dot"></div>
                             </div>
@@ -25,11 +27,11 @@ const Home = () => {
                             <h5 style={{ textAlign: "center", lineHeight: 0 }}>Personalizse Theme</h5>
                             
                             <div id="theme-opt-wrapper">
-                                <div id="light-mode" className="theme-dot"></div>
-                                <div id="blue-mode" className="theme-dot"></div>
-                                <div id="green-mode" className="theme-dot"></div>
-                                <div id="purple-mode" className="theme-dot"></div>
-                            </div>
+                                <div id="light-mode" className="theme-dot" title="App" onClick={themeColor}></div>
+                                <div id="blue-mode" className="theme-dot" title="Blue" onClick={themeColor}></div>
+                                <div id="green-mode" className="theme-dot" title="Green" onClick={themeColor}></div>
+                                <div id="purple-mode" className="theme-dot" title="Purple" onClick={themeColor}></div>
+                            </ div>
 
                             <p id="setting-note">Theme setting will be saved for <br/> your next visit</p>
 
@@ -51,23 +53,9 @@ const Home = () => {
                 </div>
             </section>
 
-            {/* <section className="s2">
-                <div className="main-container">
-                    About
-                </div>
-            </section>
+            
 
-            <section className="s1">
-                <div className="main-container">
-                    Portfolio
-                </div>
-            </section>
-
-            <section className="s2">
-                <div className="main-container">
-                    Contact
-                </div>
-            </section> */}
+            
             </>
     )
 }
