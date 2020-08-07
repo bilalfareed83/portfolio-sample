@@ -41,7 +41,7 @@ const Portfolio = () => {
                             <img className="thumnail" src="images/pakistan_garment.jpg" alt="project" />
                             <div className="post-preview">
                                 <h6 className="post-title">Estimating a Living Wage</h6>
-                                <p className="post-intro">This study uses a new methodology, more rigorous than previous ones, to estimate a living wage for workers in Sialkot.</p>
+                                <p className="post-intro">This study uses a new methodology, more rigorous than previous ones, to estimate a living wage for workers in <strong>Sialkot</strong>.</p>
                                 <a href="http://researchcollective.org/project_info.php?id=C_069" target="_blank">read more</a>
                             </div>                    
                            

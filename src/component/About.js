@@ -20,19 +20,19 @@ const About = () => {
 
                         <div id="skill">
                             <ul>
-                                <li>Key Word</li>
-                                <li>Key Word</li>
-                                <li>Key Word</li>
-                                <li>Key Word</li>
-                                <li>Key Word</li>
+                                <li>poverty</li>
+                                <li>humen rights</li>
+                                <li>gender</li>
+                                <li>developement</li>
+                                <li>Infrastructure</li>
 
                             </ul>
                             <ul>
-                                <li>Key Word</li>
-                                <li>Key Word</li>
-                                <li>Key Word</li>
-                                <li>Key Word</li>
-                                <li>Key Word</li>
+                                <li>political economy</li>
+                                <li>policy change</li>
+                                <li>politics</li>
+                                <li>empowerment</li>
+                                <li>governance</li>
                                 
                             </ul>
                             </div>
