@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Blue.css';
 import './Green.css';
 import './Purple.css';
@@ -8,18 +8,16 @@ import About from './component/About';
 import Portfolio from './component/Portfolio';
 
 function App() {
-  let currentThemeColor = "Purple"
+  const [currentThemeColor, setCurrentThemeColor] = useState('Blue');
   const themeColor = (e) => {
-    return currentThemeColor = e.target.title
-  }
-  
-  
-  return (   
-    
+    return setCurrentThemeColor(e.target.title);
+  };
+
+  return (
     <div className={currentThemeColor}>
       <Home themeColor={themeColor} />
       <About />
-      <Portfolio/>
+      <Portfolio />
     </div>
   );
 }
